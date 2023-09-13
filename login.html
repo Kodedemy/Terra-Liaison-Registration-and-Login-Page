@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="./img/image 1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Login | Terra Liaison   </title>
+</head>
+
+<body>
+    <div class="first-bg">
+        <div class="bg">
+            <h1>Login</h1>
+            <div class="login-form ">
+                <label for="email"> Enter Email </label><br>
+                <input type="text" id="rmail" placeholder="youremailaddress" autocomplete="off"><br>
+                <label for="typepassword">Enter Password</label><br>
+                <div class="password-box">
+                <input type="password" id="typepassword" placeholder="type a strong password" autocomplete="off">
+                <img src="./img/invisible.png" id="eyeicon">
+                </div>
+                <p></p>
+                <a href=""><button type="submit" class="login">Login</button></a>
+                <div class="checkbox-1">
+                    <label class="custom-checkbox">
+                        <input type="checkbox" id="terms" name="terms">
+                        <span class="checkmarker"></span>
+                    </label>
+                    <label for="terms" class="Remember">Remember Me</label>
+                     <a href="#">Forget Password</a>
+                </div>
+            </div>
+
+            <div class="lines">
+                <div class="span"></div>
+                <p class="text">Or</p>
+                <div class="span"></div>
+            </div>
+
+            <div class="other-options">
+                <a href="#" class="first-option">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
+                        <path
+                            d="M5.83463 0.965336C4.08052 1.56152 2.56777 2.69311 1.5186 4.19388C0.469419 5.69465 -0.0608897 7.4855 0.00556351 9.30338C0.0720168 11.1213 0.731729 12.8704 1.8878 14.2937C3.04387 15.7171 4.63536 16.7398 6.42851 17.2115C7.88226 17.579 9.40535 17.5952 10.8669 17.2585C12.1909 16.9672 13.4149 16.3439 14.4192 15.4498C15.4644 14.4908 16.2231 13.2709 16.6137 11.9211C17.0381 10.4532 17.1136 8.90962 16.8345 7.40871H8.67101V10.7265H13.3988C13.3043 11.2556 13.1018 11.7607 12.8034 12.2114C12.5051 12.6621 12.117 13.0492 11.6624 13.3495C11.0851 13.7238 10.4343 13.9756 9.7518 14.0886C9.06731 14.2133 8.36522 14.2133 7.68074 14.0886C6.98694 13.9482 6.33064 13.6677 5.7537 13.2649C4.82674 12.622 4.13071 11.7087 3.76495 10.6553C3.3931 9.5821 3.3931 8.41871 3.76495 7.34555C4.0253 6.59333 4.45571 5.90844 5.02404 5.34199C5.67442 4.68186 6.49782 4.21 7.4039 3.97817C8.30999 3.74634 9.26374 3.76351 10.1605 4.02779C10.8611 4.23839 11.5018 4.60652 12.0313 5.1028C12.5644 4.58321 13.0966 4.06228 13.6278 3.54C13.9021 3.25915 14.2011 2.99174 14.4713 2.70417C13.6628 1.96714 12.7139 1.3936 11.6788 1.0164C9.79391 0.345844 7.73146 0.327823 5.83463 0.965336Z"
+                            fill="white" />
+                        <path
+                            d="M5.88799 0.956178C7.76283 0.331663 9.80154 0.34884 11.6649 1.00485C12.6882 1.37662 13.6258 1.94079 14.4239 2.66499C14.1528 2.9465 13.8667 3.2096 13.5901 3.48322C13.0641 3.99275 12.5385 4.50052 12.0134 5.00654C11.4899 4.52071 10.8566 4.16032 10.1641 3.95416C9.27792 3.69454 8.33518 3.67676 7.43929 3.90278C6.5434 4.1288 5.72898 4.58988 5.08538 5.23544C4.52359 5.78996 4.09814 6.46043 3.84078 7.19682L1.03027 5.08547C2.03626 3.14982 3.77808 1.6692 5.88799 0.956178Z"
+                            fill="#E33629" />
+                        <path
+                            d="M0.162771 7.29927C0.308926 6.54802 0.551757 5.8205 0.884755 5.13623L3.60598 7.32512C3.25009 8.41156 3.25009 9.58935 3.60598 10.6758C2.69934 11.4013 1.79227 12.1305 0.884755 12.8633C0.0513893 11.1442 -0.202773 9.18548 0.162771 7.29927Z"
+                            fill="#F8BD00" />
+                        <path
+                            d="M8.75842 7.19678H16.8367C17.1129 8.73523 17.0381 10.3174 16.6182 11.822C16.2317 13.2056 15.4809 14.456 14.4466 15.439C13.5386 14.72 12.6265 14.0065 11.7185 13.2875C12.1687 12.9794 12.5529 12.5822 12.8482 12.1197C13.1434 11.6572 13.3436 11.139 13.4368 10.5961H8.75842C8.75706 9.46394 8.75842 8.33036 8.75842 7.19678Z"
+                            fill="#587DBD" />
+                        <path
+                            d="M1.03027 12.919C1.9707 12.2171 2.91068 11.5117 3.8502 10.8027C4.21369 11.8348 4.90499 12.7294 5.82537 13.3586C6.39936 13.7513 7.05169 14.0238 7.74069 14.1588C8.41956 14.2809 9.1159 14.2809 9.79477 14.1588C10.4717 14.0481 11.1172 13.8015 11.6897 13.4349C12.5997 14.1219 13.5139 14.8037 14.4239 15.4907C13.428 16.3668 12.214 16.9777 10.9007 17.2634C9.45116 17.5931 7.94056 17.5773 6.49873 17.2174C5.35838 16.9228 4.29322 16.4035 3.37001 15.692C2.39294 14.9414 1.59485 13.9955 1.03027 12.919Z"
+                            fill="#319F43" />
+                    </svg>
+                    <p>Continue with Goggle</p>
+                </a>
+
+
+                <a href="#" class="first-option">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                        <path
+                            d="M17.0068 0H0.993156C0.444651 0 0 0.444651 0 0.993156V17.0068C0 17.5553 0.444651 18 0.993156 18H17.0068C17.5553 18 18 17.5553 18 17.0068V0.993156C18 0.444651 17.5553 0 17.0068 0Z"
+                            fill="#3D5A98" />
+                        <path
+                            d="M12.4201 17.9999V10.9621H14.947L15.3249 8.21954H12.4201V6.46895C12.4201 5.67503 12.6567 5.13296 13.8741 5.13296H15.4284V2.67598C14.6757 2.60267 13.9194 2.56781 13.1627 2.57156C10.925 2.57156 9.38384 3.84612 9.38384 6.19714V8.21954H6.85693V10.9621H9.38384V17.9999H12.4201Z"
+                            fill="white" />
+                    </svg>
+                    <p>Continue with facebook</p>
+                </a>
+            </div>
+
+            <p class="sign-up">Already have an account? <a href="index.html">Sign-up</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
